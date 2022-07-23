@@ -1,5 +1,12 @@
+header {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+
 .topnav {
-    display: flex-end;
+    display: flex;
     flex-direction: column;
     height:60px;
     padding: 50px;
