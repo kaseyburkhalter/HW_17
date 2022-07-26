@@ -14,10 +14,18 @@ justify-content: space-between;
 
   }
 
-  p {    color: rgb(0, 0, 0);    
-    font-weight: 900;    
+  h2 {
+    color: rgb(0, 0, 0);    
+    font-weight: 400;    
     font-size: 20px;    
-    font-family: Helvetica, Arial, sans-serif;    
+    font-family: "noto_serif.ttf" Arial sans-serif;   
+
+  }
+
+  p {    color: rgb(0, 0, 0);    
+    font-weight: 300;    
+    font-size: 16px;    
+    font-family: "poppins.ttf", Arial, sans-serif;    
     }
 
     body {
@@ -51,7 +59,7 @@ justify-content: space-between;
 
 .flexChild {
 
-    background-color: red;
+    background-color: rgb(255, 255, 255);
     padding: 10px;
     margin: 10px;
     height: 20px;
