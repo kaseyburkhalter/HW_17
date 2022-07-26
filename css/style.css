@@ -7,7 +7,7 @@ justify-content: space-between;
 
 .topnav {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     height:60px;
     padding: 50px;
     margin: 15px;
