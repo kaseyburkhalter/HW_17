@@ -39,6 +39,33 @@ p {
   font-family: "poppins.ttf", Arial, sans-serif;
 }
 
+
+img {
+  max-width: 90%;
+  height: auto;
+  margin: 10px 30px 20px 20px;
+}
+
+h1 h2 h3 { 
+  font-family: "Noto Serif", serif;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 2.5em;
+  /* font-size: 40px; */
+  font-family: "Noto Serif", Arial, serif;
+  text-align: center;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  font-weight: 300;
+  font-size: 16px;
+  font-family: "poppins.ttf", Arial, sans-serif;
+}
+
 body {
   font: normal 300 0.8em "Open Sans", sans-serif;
   overflow-x: hidden;
@@ -114,5 +141,31 @@ grid-template-areas:
 .aboutMecard {
 
   grid-area: aboutMecard;
+
+}
+
+.carMd {
+
+  grid-area: carMd;
+
+}
+
+.afrf {
+
+  grid-area: afrf;
+
+}
+
+.aboutMecard {
+
+  grid-area: aboutMecard;
+
+}
+
+@media only screen and (max-width: 600){
+
+  img {
+    display: none;
+  }
 
 }
